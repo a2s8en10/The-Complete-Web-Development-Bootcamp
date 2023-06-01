@@ -1,0 +1,21 @@
+/* .home ul {
+    display: flex;
+}
+
+.home ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.home ul li a {
+    text-decoration: none;
+}
+
+.home ul li {
+    list-style: none;
+} */
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+}
