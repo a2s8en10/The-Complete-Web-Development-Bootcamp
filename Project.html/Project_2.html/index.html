@@ -1,87 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
     <section>
 
-        <h1>Product catalog</h1>
-        <ul>
-            <li> <a href="#electronic">Electronic</a> </li>
-            <li> <a href="#clothing">clothing"</a> </li>
-            <li> <a href="#home">home</a> </li>
-        </ul>
+        <fieldset>
+            <legend>
+                <h1>Product catalog</h1>
+            </legend>
+
+            <table>
+                <tr>
+                    <td><a href="#electronic">Electronic</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#clothing">clothing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#home">home</a></td>
+                </tr>
+
+            </table>
+        </fieldset>
 
     </section>
 
     <section id="electronic">
         <fieldset>
 
-            <legend> <h2>Electronic</h2></legend>
+            <legend>
+                <h2>Electronic</h2>
+            </legend>
 
             <h3>Laptop</h3>
 
-            <img src="./laptop.jpg" alt="" width="30%" height="30%">
-            <br>
-            <a href="#">View details</a>
             <table>
-
                 <tr>
-                    <td> <p><b>storage: </b>512GB SSD</p></td>
-                    <td><p><b>Price:</b> $999.99</p></td>
+                    <td rowspan="4"><img src="./New_laptop.jpg" alt=""></td>
+                    <td colspan="2">
+                        <p><b>storage: </b>512GB SSD</p>
+                    </td>
+                    <td>
+                        <p><b>Price:</b> $999.99</p>
+                    </td>
                 </tr>
 
                 <tr>
-                    <td><p><b>Availability:</b> In stock.</p></td>
-                    <td><p><b>Brand: </b>XYZ Electronics</p></td>
+                    <td colspan="2">
+                        <p><b>Availability:</b> In stock.</p>
+                    </td>
+                    <td>
+                        <p><b>Brand: </b>XYZ Electronics</p>
+                    </td>
                 </tr>
 
                 <tr>
-                    <td> <p><b>Screen Size: </b>15.6inches</p></td>
-                    <td><p><b>RAM: </b>8GB</p></td>
+                    <td colspan="2">
+                        <p><b>Screen Size: </b>15.6inches</p>
+                    </td>
+                    <td>
+                        <p><b>RAM: </b>8GB</p>
+                    </td>
                 </tr>
-                
+
                 <tr>
-                    <td><p><b>Description:</b> High-performance Laptop with the latest processor and ample storage. </p></td>
+                    <td>
+                        <p><b>Description:</b> High-performance Laptop with the latest processor and ample storage. </p>
+                    </td>
                 </tr>
-            
+
             </table>
+
+            <a href="#">View details</a>
+
             <hr>
 
             <h3>Smartphone</h3>
-
-            <img src="./smartphone.jpg" alt="" width="10%" height="10%">
-            <br>
-            <a href="#">view details</a>
+            <hr>
 
             <table>
                 <tr>
-                    <td> <p><b>Price: </b>$699.99</p></td>
-                    <td> <p><b>Brand: </b>ABC mobile</p></td>
-                 
+                    <td rowspan="4"><img src="./New_phone.jpg" alt=""></td>
+                    <td colspan="2">
+                        <p><b>Price: </b>$699.99</p>
+                    </td>
+                    <td>
+                        <p><b>Brand: </b>ABC mobile</p>
+                    </td>
+
                 </tr>
 
                 <tr>
-                   <td> <p><b>Screen Size: </b>6.5inches</p></td>
-                   <td> <p><b>Camera: </b>48MP + 12MP</p></td>
+                    <td colspan="2">
+                        <p><b>Screen Size: </b>6.5inches</p>
+                    </td>
+                    <td>
+                        <p><b>Camera: </b>48MP + 12MP</p>
+                    </td>
                 </tr>
 
                 <tr>
-                    <td> <p><b>Availability: </b>Out of stock</p></td>
-                    <td>  <p><b>Storage: </b>128GB</p></td>
+                    <td colspan="2">
+                        <p><b>Availability: </b>Out of stock</p>
+                    </td>
+                    <td>
+                        <p><b>Storage: </b>128GB</p>
+                    </td>
                 </tr>
 
                 <tr>
-                    <td><p><b>Description: </b>Feature-rich Smartphone with a high-resolution dispaly and advanced camera</p></td>
+                    <td>
+                        <p><b>Description: </b>Feature-rich Smartphone with a high-resolution dispaly and advanced
+                            camera</p>
+                    </td>
                 </tr>
             </table>
-
-
 
         </fieldset>
     </section>
@@ -89,60 +130,186 @@
     <section id="clothing">
 
         <fieldset>
-            
-            <legend><h2>clothing</h2></legend>
+
+            <legend>
+                <h2>clothing</h2>
+            </legend>
 
             <h3>T-Shirt</h3>
 
             <table>
-                
+
                 <tr>
                     <td rowspan="4"><img src="./t-shirt.jpg" alt=""></td>
-                    <td colspan="2"><p><b>Price:</b> $19.99</p></td>
-                    <td> <p><b>Availability:</b> In stock</p></td>
+                    <td colspan="2">
+                        <p><b>Price:</b> $19.99</p>
+                    </td>
+                    <td>
+                        <p><b>Availability:</b> In stock</p>
+                    </td>
                 </tr>
 
                 <tr>
-                    <td colspan="2"><p><b>Brand: </b>fashion Apparel</p></td>
-                    <td> <p><b>Size: </b>M,L,XL</p></td>
+                    <td colspan="2">
+                        <p><b>Brand: </b>fashion Apparel</p>
+                    </td>
+                    <td>
+                        <p><b>Size: </b>M,L,XL</p>
+                    </td>
                 </tr>
 
                 <tr>
-                    <td colspan="2"><p><b>colour: </b>Black</p></td>
-                    <td><p><b>material: </b>100% cotton</p></td>
+                    <td colspan="2">
+                        <p><b>colour: </b>Black</p>
+                    </td>
+                    <td>
+                        <p><b>material: </b>100% cotton</p>
+                    </td>
                 </tr>
 
-                <tr><td><p><b>Description:</b> casul and comfortable T-shirt made form premium quality cotton.</p></td></tr>
-                
+                <tr>
+                    <td>
+                        <p><b>Description:</b> casul and comfortable T-shirt made form premium quality cotton.</p>
+                    </td>
+                </tr>
+
             </table>
+
             <a href="#">View details</a>
 
             <hr>
             <h3>Jeans</h3>
-            <img src="./jeans-3.jpg" alt="" width="20%" height="30%"> 
+            <hr>
+
             <table>
                 <tr>
-                    <td> <p><b>Price:</b> $49.99</p></td>
-                    <td> <p><b>Availability:</b> In stock.</p></td>
+                    <td rowspan="4"><img src="./New_jeans.jpg" alt=""></td>
+                    <td colspan="2">
+                        <p><b>Price:</b> $49.99</p>
+                    </td>
+                    <td>
+                        <p><b>Availability:</b> In stock.</p>
+                    </td>
                 </tr>
 
                 <tr>
-                    <td> <p><b>Brand: </b>Denim co.</p></td>
-                    <td> <p><b>Size: </b>30 32, 34</p></td>
+                    <td colspan="2">
+                        <p><b>Brand: </b>Denim co.</p>
+                    </td>
+                    <td>
+                        <p><b>Size: </b>30 32, 34</p>
+                    </td>
                 </tr>
 
                 <tr>
-                    <td> <p><b>colour: </b>Black</p></td>
-                    <td> <p><b>material: </b>Denim</p></td>
+                    <td colspan="2">
+                        <p><b>colour: </b>Black</p>
+                    </td>
+                    <td>
+                        <p><b>material: </b>Denim</p>
+                    </td>
                 </tr>
 
                 <tr>
-                    <td> <p><b>Description:</b> classic jeans with a slim fit and style design.</p></td>
+                    <td>
+                        <p><b>Description:</b> classic jeans with a slim fit and style design.</p>
+                    </td>
                 </tr>
 
             </table>
 
             <a href="#">View details</a>
+
+        </fieldset>
+
+    </section>
+
+    <section id="home">
+
+        <fieldset>
+
+            <legend>
+                <h1>Home</h1>
+            </legend>
+
+            <h3>Table lamp</h3>
+
+            <table>
+
+                <tr>
+                    <td rowspan="4"><img src="./lamp.jpg" alt=""></td>
+                    <td colspan="2">
+                        <p><b>Price:</b> $39.99</p>
+                    </td>
+                    <td>
+                        <p><b>Availability:</b> In stock.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p><b>Brand: </b>Home essentials</p>
+                    </td>
+                    <td>
+                        <p><b>Diensions: </b>12 inches (height)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p><b>colour: </b>Black</p>
+                    </td>
+                    <td>
+                        <p><b>material: </b>ceramic, metal</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><b>Description:</b> Mordan and style table lamp to exchange your home decor. </p>
+                    </td>
+                </tr>
+            </table>
+
+            <a href="#">View details</a>
+            <hr>
+
+            <h3>Throw pillow</h3>
+
+            <table>
+
+                <tr>
+                    <td rowspan="4"><img src="./pillow.jpg" alt=""></td>
+                    <hr>
+                    <td colspan="2">
+                        <p><b>Price:</b> $24.99</p>
+                    </td>
+                    <td>
+                        <p><b>Availability:</b> In stock.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p><b>Brand: </b>Cozy home </p>
+                    </td>
+                    <td>
+                        <p><b>Diensions: </b>18 x 18 inche</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p><b>colour: </b>Gray</p>
+                    </td>
+                    <td>
+                        <p><b>material: </b>Cotton, polyester</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><b>Description:</b> soft and comfortable throw pillow for your living room or bedroom.</p>
+                    </td>
+                </tr>
+            </table>
+
+            <a href="#">View details</a>
+
 
 
 
@@ -150,8 +317,6 @@
 
     </section>
 
-    
-
-
 </body>
+
 </html>
