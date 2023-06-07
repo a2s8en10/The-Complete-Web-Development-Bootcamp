@@ -10,7 +10,31 @@
     <style>
         .index {
             list-style: none;
+        }
 
+        #Books {
+            text-align: center;
+
+            .heading {
+                margin-bottom: 0px;
+            }
+
+            .para {
+                margin-top: 0px;
+                color: darkgrey;
+            }
+
+            .a {
+                color: red;
+            }
+
+            .Books image{
+                
+
+                .cse{
+                   border-image: 30px;
+                }
+            }
         }
     </style>
 </head>
@@ -30,19 +54,28 @@
     </section>
 
     <section id="Books">
-        <h1>
-            <span>our</span>
+        <h1 class="heading">
+            <span class="a">our</span>
             Books
         </h1>
-        <p>We provide high standard Books</p>
+        <p class="para">We provide high standard Books</p>
 
         <div class="Books image">
             <table>
                 <tr>
-                    <td><img src="./cse.png" alt="" width="100%" height="100%"></td>
-                    <td><img src="./ce.png" alt="" width="100%" height="100%"></td>
-                    <td><img src="./ee.png" alt="" width="100%" height="100%"></td>
-                    <td><img src="./me.png" alt="" width="100%" height="100%"></td>
+                    <div class="cse">
+                        <td><img src="./cse.png" alt="" width="100%" height="100%"></td>
+                    </div>
+
+                    <div class="ce">
+                        <td><img src="./ce.png" alt="" width="100%" height="100%"></td>
+                    </div>
+                    <div class="ee">
+                        <td><img src="./ee.png" alt="" width="100%" height="100%"></td>
+                    </div>
+                    <div class="me">
+                        <td><img src="./me.png" alt="" width="100%" height="100%"></td>
+                    </div>
 
                 </tr>
             </table>
