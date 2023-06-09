@@ -19,34 +19,120 @@
             text-decoration: none;
             color: antiquewhite;
             padding: 25px;
+            font-weight: bold;
         }
 
         .group,
         a:hover {
-            color: rgba(22, 144, 192, 0.418);
+            color: rgba(0, 0, 0, 0.219);
         }
 
-        .hp {
-            padding-left: 15px;
-            padding-right: 15px;
-            text-align: center;
-            color: aliceblue;
-        }
+    }
 
-
+    .hp {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        color: aliceblue;
+        font-family: sans-serif;
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
 
     .heading {
-        font-size: 100px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        font-size: 80px;
+        font-weight: 800;
+        margin-bottom: 10px;
+
     }
 
     .para {
-        font-size: 35px;
+        font-size: 24px;
+        font-weight: 300;
+        display: block;
+        margin-top: 10px;
         padding: 0px;
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        ;
+    }
+}
+
+#second {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+
+    /* width: 90%; */
+    .first {
+
+        .heading {
+            font-size: 36px;
+            font-weight: 800;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .para {
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            ;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .italic {
+            margin-bottom: 30px;
+            font-size: 18px;
+            font-family: Lora, 'Times New Roman', serif;
+            font-style: italic;
+        }
     }
 
+    .second {
 
+        .heading {
+            font-size: 36px;
+            font-weight: 800;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
 
+        .para {
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            ;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .italic {
+            margin-bottom: 30px;
+            font-size: 18px;
+            font-family: Lora, 'Times New Roman', serif;
+            font-style: italic;
+        }
+    }
+
+    .third {
+
+        .heading {
+            font-size: 36px;
+            font-weight: 800;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .italic {
+            margin-bottom: 30px;
+            font-size: 18px;
+            font-family: Lora, 'Times New Roman', serif;
+            font-style: italic;
+
+        }
+
+        .fourth{
+
+            .para{
+                text-align: right;
+            }
+        }
+    }
 }
