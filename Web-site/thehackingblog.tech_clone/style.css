@@ -1,3 +1,52 @@
-a{
-text-decoration: none;
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#first {
+
+    .main {
+        
+        background-image: url(https://thehackingblog.tech/img/home-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 450px;
+        width: 1290px;
+        margin-bottom: 50px;
+    
+        .group,
+        a {
+            text-decoration: none;
+            color: antiquewhite;
+            padding: 25px;
+        }
+
+        .group,
+        a:hover {
+            color: rgba(22, 144, 192, 0.418);
+        }
+
+        .hp{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .heading {
+            color: aliceblue;
+            text-align: center;
+            font-size: 100px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .para {
+            color: aliceblue;
+            text-align: center;
+            font-size: 35px;
+            padding: 0px;
+        }
+
+
+
+    }
 }
