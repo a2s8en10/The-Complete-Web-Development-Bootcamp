@@ -57,19 +57,27 @@
     }
 }
 
+hr{
+    font-size: small;
+}
 #second {
     padding-left: 15px;
     padding-right: 15px;
     text-decoration: none;
+    text-align: center;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color:  inherit ;
 
     /* width: 90%; */
     .first {
+
 
         .heading {
             font-size: 36px;
             font-weight: 800;
             margin-top: 20px;
             margin-bottom: 10px;
+            font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
         }
 
         .para {
@@ -128,9 +136,9 @@
 
         }
 
-        .fourth{
+        .fourth {
 
-            .para{
+            .para {
                 text-align: right;
             }
         }
